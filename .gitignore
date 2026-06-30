@@ -34,8 +34,6 @@ yarn-error.log*
 .env*
 
 # local sqlite database files
-db/*.db
-db/*.db-*
 
 # vercel
 .vercel
