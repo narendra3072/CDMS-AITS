@@ -27,7 +27,7 @@ async function main() {
     data: {
       username: "admin",
       email: "admin@example.com",
-      password: await hashPassword("admin123"),
+      password: await hashPassword("123"),
       name: "Admin",
       role: "admin",
       isActive: true,
@@ -302,7 +302,7 @@ async function main() {
   }
 
   console.log("Seed completed successfully")
-  console.log("Admin: admin / admin123")
+  console.log("Admin: admin / 123")
   console.log("Students: narasimha / narasimha123, nithin / nithin123, nikhil / nikhil123, narendra / narendra123, nandeedh / nandeedh123, rahulsai / rahulsai123, paramesh / paramesh123")
   console.log("Branch students: vinod and madhu in AI&ML, balaji in AI, naveen and naresh in DS, kiran/noor/vignesh in CSE")
   console.log("Faculty: udaykumar / udaykumar123, sireesha / sireesha123, jyoshna / jyoshna123, panduranga / panduranga123, ashokkumar / ashokkumar123, venkateshgoud / venkateshgoud123")

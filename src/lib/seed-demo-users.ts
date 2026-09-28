@@ -7,7 +7,7 @@ const demoUsers = [
   {
     username: "admin",
     email: "admin@example.com",
-    password: "admin123",
+    password: "123",
     name: "Admin",
     role: "admin",
   },
